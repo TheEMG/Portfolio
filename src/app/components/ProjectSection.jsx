@@ -34,7 +34,7 @@ const projectsData = [
       "Engineered a robust backend with Java, enriching user interactions with a dynamic React.js frontend.",
       "Featured seamless API integration for real-time media management, achieving a 63% boost in inventory efficiency.",
     ],
-    image: "/images/inventory.png",
+    image: "/images/Inventory.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/TheEMG/Media-Inventory-System",
     previewUrl: "/",
