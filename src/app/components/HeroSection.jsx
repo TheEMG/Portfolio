@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
@@ -7,6 +7,23 @@ import Link from "next/link";
 
 
 const HeroSection = () => {
+  const [windowWidth, setWindowWidth] = useState(undefined);
+
+  useEffect(() => {
+    // Function to update the width
+    function handleResize() {
+      setWindowWidth(window.innerWidth);
+    }
+
+    // Call the function at the start to initialize the width
+    handleResize();
+
+    // Set up the event listener
+    window.addEventListener('resize', handleResize);
+
+    // Clean up
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   return (
     <section className="lg:py-20 mb-14">
       <div className="grid grid-cols-1 lg:grid-cols-12">
@@ -16,10 +33,10 @@ const HeroSection = () => {
           Hello, I&apos;m{" "}
           </span>
           
-        <div style={{ height: '2em' }}> 
+          <div className={`${windowWidth <= 640 ? 'h-[2em]' : 'h-auto'}`} style={{ height: windowWidth <= 640 ? '2em' : 'auto' }}>
           <TypeAnimation
             sequence={[
-              'Eric Gutierrez',
+              'Eric M. Gutierrez',
               1000,
               'A Software Engineer',
               1000,
@@ -55,7 +72,7 @@ const HeroSection = () => {
 
         </div>
       </div>
-       <div className="col-span-4 place-self-center lg:mt-0">
+       <div className="col-span-4 place-self-center lg:mt-0 mt-4">
        <div className="relative bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden">
     
             
