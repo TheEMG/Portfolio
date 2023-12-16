@@ -85,8 +85,9 @@ const AboutSection = () => {
       <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
         <h2 className="text 4xl font-bold text-white mb-4">About Me</h2>
         <p className="text-base lg:text-lg">
-        Hello! I'm Eric Gutierrez, a Computer Science student and aspiring software engineer. Starting with Java, I've now expanded into full-stack web development, 
-        where I enjoy creating innovative software solutions. I'm passionate about learning and growing in the dynamic field of technology.
+        Hello! I&apos;m Eric Gutierrez, a Computer Science student and aspiring software engineer. Starting with Java, I&apos;ve now expanded into full-stack web development, 
+        where I enjoy creating innovative software solutions. I&apos;m passionate about learning and growing in the dynamic field of technology.
+
         </p>
         <div className="flex flex-row justify-start mt-8">
           <TabButton selectTab={()=> handleTabChange("skills")} active={tab === "skills"}>

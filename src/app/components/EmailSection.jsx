@@ -85,10 +85,9 @@ const EmailSection = () => {
         Let's connect
       </h5>
       <p className="text-[#ADB7BE] mb-4 max-w-md">
-        {" "}
-        Let's make something great together. I'm just a message away from discussing potential projects, job opportunities, or simply exchanging tech insights.
-         As a Computer Science student diving into the world of software engineering, I welcome all avenues of growth. <br></br>Contact me!!!
-
+        { " " }
+        Let&apos;s make something great together. I&apos;m just a message away from discussing potential projects, job opportunities, or simply exchanging tech insights.
+        As a Computer Science student diving into the world of software engineering, I welcome all avenues of growth. <br></br>Contact me!!!    
       </p>
       <div className="socials flex flex-row gap-2">
       <Link href="https://github.com/TheEMG" passHref>
