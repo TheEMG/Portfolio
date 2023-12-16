@@ -15,7 +15,8 @@ const HeroSection = () => {
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-green-500"> 
           Hello, I&apos;m{" "}
           </span>
-          <br></br>
+          
+        <div style={{ height: '2em' }}> 
           <TypeAnimation
             sequence={[
               'Eric Gutierrez',
@@ -32,6 +33,7 @@ const HeroSection = () => {
             
             repeat={Infinity}
          />
+       </div>
          
           
         </h1>
