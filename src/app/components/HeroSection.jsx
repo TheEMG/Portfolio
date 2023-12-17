@@ -36,7 +36,7 @@ const HeroSection = () => {
           <div className={`${windowWidth <= 640 ? 'h-[2em]' : 'h-auto'}`} style={{ height: windowWidth <= 640 ? '2em' : 'auto' }}>
           <TypeAnimation
             sequence={[
-              'Eric M. Gutierrez',
+              'Eric Gutierrez',
               1000,
               'A Software Engineer',
               1000,

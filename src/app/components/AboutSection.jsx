@@ -9,31 +9,25 @@ const TAB_DATA = [
     title: "Skills",
     id:"skills",
     content:(
-      // <ul className="list-disc pl-2">
-      //     <li>Java</li>
-      //     <li>HTML</li>
-      //     <li>CSS</li>
-      //     <li>Javascript</li>
-      //     <li>C++</li>
-      // </ul>
-     <ul className="list-disc">
+      <ul className="flex items-center">
       <li className="p-2">
-          <img src="/images/javaLogo.png" alt="Java" />
+        <img className="w-12 h-12" src="/images/javaLogo.png" alt="Java" style={{ width: '48px', height: '48px' }} />
       </li>
       <li className="p-2">
-          <img src="/images/html.png" alt="HTML" />
+        <img className="w-12 h-12" src="/images/html.png" alt="HTML" style={{ width: '48px', height: '48px' }} />
       </li>
       <li className="p-2">
-          <img src="/images/css.png" alt="CSS" />
+        <img className="w-12 h-12" src="/images/css.png" alt="CSS" style={{ width: '48px', height: '48px' }} />
       </li>
       <li className="p-2">
-          <img className="w-12 h-12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Logo" />
+        <img className="w-12 h-12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Logo" style={{ width: '48px', height: '48px' }} />
       </li>
       <li className="p-2">
-          <img src="/images/c++.png" alt="C++" />
+        <img className="w-12 h-12" src="/images/c++.png" alt="C++" style={{ width: '48px', height: '48px' }} />
       </li>
-  </ul>
-  
+    </ul>
+    
+      
 
     
     )
@@ -43,24 +37,23 @@ const TAB_DATA = [
     title: "Technologies",
     id: "technologies",
     content:(
-      <ul className="list-disc pl-2">
+      <ul className="flex items-center">
       <li className="p-2">
-          <img className="w-12 h-12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="React Logo" />
+        <img className="w-12 h-12" style={{ width: '48px', height: '48px' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="React Logo" />
       </li>
       <li className="p-2">
-          <img className="w-12 h-12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB logo"/>
+        <img className="w-12 h-12" style={{ width: '48px', height: '48px' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB logo"/>
       </li>
       <li className="p-2">
-          <img className="w-12 h-12" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" />
+        <img className="w-12 h-12" style={{ width: '48px', height: '48px' }} src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" />
       </li>
       <li className="p-2">
-          <img className="w-12 h-12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="spring logo"/>
+        <img className="w-12 h-12" style={{ width: '48px', height: '48px' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring logo"/>
       </li>
       <li className="p-2">
-          <img className="w-12 h-12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="node logo"/>
+        <img className="w-12 h-12" style={{ width: '48px', height: '48px' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js logo"/>
       </li>
-  </ul>
-  
+    </ul>
     
     )
     
