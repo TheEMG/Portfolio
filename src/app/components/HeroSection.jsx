@@ -25,7 +25,7 @@ const HeroSection = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
   return (
-    <section className="lg:py-20 mb-14  xl:mb-16 2xl:mb-20 ">
+    <section className="lg:py-20 mb-14  xl:mb-16 2xl:mb-40 ">
       <div className="grid grid-cols-1 lg:grid-cols-12">
        <div className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
         <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
