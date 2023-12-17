@@ -3,12 +3,13 @@ This project is my personal portfolio website, a Next.js project bootstrapped wi
 
 # What I've Learned 
 Through the development of this portfolio website, I have gained a deeper understanding and practical experience in several key areas:
-* Next.js and Tailwind CSS: Leveraging Next.js for dynamic features and Tailwind CSS for efficient styling, enhancing both functionality and aesthetics.
-* Email Integration: Utilized an email API for contact form submissions, learning about backend to frontend integration.
-* Environment Variables: Mastered the use of environment variables for secure application configuration, particularly in deployment with Vercel.
-* UI/UX Design: Focused on creating a user-friendly interface, ensuring a balance between aesthetic appeal and usability.
-* Static vs. Dynamic Web Pages: Explored the differences and use-cases of static and dynamic web pages, enhancing my understanding of web development best practices.
-* DNS Configuration: Learned about setting DNS records, a crucial aspect of deploying and managing web applications.
+* **Next.js and Tailwind CSS**: Leveraging Next.js for dynamic features and Tailwind CSS for efficient styling, enhancing both functionality and aesthetics.
+* **Email Integration**: Utilized an email API for contact form submissions, learning about backend to frontend integration.
+* **Environment Variables**: Mastered the use of environment variables for secure application configuration, particularly in deployment with Vercel.
+* **UI/UX Design**: Focused on creating a user-friendly interface, ensuring a balance between aesthetic appeal and usability.
+* **Static vs. Dynamic Web Pages**: Explored the differences and use-cases of static and dynamic web pages, enhancing my understanding of web development best practices.
+* **DNS Configuration**: Learned about setting DNS records, a crucial aspect of deploying and managing web applications.
+* **Progression from Earlier Work**: Building upon the foundation laid by my initial project, [Portfolio-Version1](https://github.com/TheEMG/Portfolio-Version1), which was a static webpage created using only HTML, CSS, and JavaScript. This early project was crucial for learning the basics of UI/UX and front-end development.
 
 # Learn More 
 To know more about Next.js:
