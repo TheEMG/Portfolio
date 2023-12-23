@@ -94,7 +94,7 @@ const EmailSection = () => {
       <Image src="/images/github-logo.png" alt="GitHub Icon" width={45} height={45} />
 
         </Link>
-        <Link href="https://www.linkedin.com/in/eric-gutierrez-121782289/" passHref>
+        <Link href="https://www.linkedin.com/in/eric-gutierrezedu/" passHref>
         <Image src="/images/link.png" alt="LinkedIn Icon" width={45} height={45} />
 
         </Link>
