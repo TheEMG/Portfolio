@@ -81,7 +81,7 @@ const projectsData = [
     technologies: [
       {
         name: "TailWind CSS",
-        imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        imageUrl: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
         alt: "TailWind CSS"
       },
       {
